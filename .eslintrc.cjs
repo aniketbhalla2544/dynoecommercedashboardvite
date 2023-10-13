@@ -19,5 +19,11 @@ module.exports = {
         node: true,
       },
     },
+    {
+      files: ['**/*.test.ts', '**/*.test.tsx'],
+      env: {
+        jest: true,
+      },
+    },
   ],
 };

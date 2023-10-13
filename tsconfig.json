@@ -26,6 +26,7 @@
       "@/*": ["src/*"]
     }
   },
+  "types": ["node", "jest", "@testing-library/jest-dom"],
   "include": ["src", "./tests/setup.ts"],
   "exclude": [
     "node_modules",
@@ -35,6 +36,5 @@
     "**/*.spec.tsx",
     "**/*.test.tsx"
   ],
-  "types": ["node", "jest", "@testing-library/jest-dom"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
